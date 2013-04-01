@@ -11,6 +11,6 @@ import javax.servlet.http.HttpServletResponse;
 public class WebServlet extends HttpServlet{
 	public void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
 		PrintWriter out = resp.getWriter();
-		out.println("This is a test 12");
+		out.println("This is a test 13");
 	}
 }
