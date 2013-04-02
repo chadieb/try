@@ -12,6 +12,5 @@ public class WebServlet extends HttpServlet{
 	public void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
 		PrintWriter out = resp.getWriter();
 		out.println("This is a test 19");
->>>>>>> beb63a546132439f1e18d9c7c08b65b7036b7f15
 	}
 }
